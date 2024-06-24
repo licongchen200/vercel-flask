@@ -28,28 +28,7 @@ Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_mediu
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fvercel%2Fexamples%2Ftree%2Fmain%2Fpython%2Fflask3&demo-title=Flask%203%20%2B%20Vercel&demo-description=Use%20Flask%203%20on%20Vercel%20with%20Serverless%20Functions%20using%20the%20Python%20Runtime.&demo-url=https%3A%2F%2Fflask3-python-template.vercel.app%2F&demo-image=https://assets.vercel.com/image/upload/v1669994156/random/flask.png)
 
 
-kevin.chen278@gmail.com for MySQL Database
 
-npm config set registry https://registry.npmjs.org/ 
-
-step 1:
-npm install -g yarn
-
-step 2:
-yarn global add vercel
-
-develop:
-
-vercel dev  
-
-
-deploy to prod:
-
-vercel --prod
-
-vercel
-
-brew install mysql-client
 
 
 
