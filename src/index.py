@@ -1,9 +1,19 @@
 from src import create_app
+from flask import Flask
 
-app = create_app()
+app = Flask(__name__)
 
+@app.route('/')
+def home():
+    return 'Hello, World!'
 
-@app.route('/health')
+@app.route('/about')
+def about():
+    return 'About'
+
+app1 = create_app()
+
+@app1.route('/health')
 def health():
     return "ok"
 
