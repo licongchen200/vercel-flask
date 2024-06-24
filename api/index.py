@@ -1,4 +1,4 @@
-from src import create_app
+from api import create_app
 from flask import Flask
 
 app = Flask(__name__)
@@ -11,11 +11,11 @@ def home():
 def about():
     return 'About'
 
-app1 = create_app()
+app = create_app()
 
-@app1.route('/health')
+@app.route('/health')
 def health():
-    return "ok"
+    return "I am good."
 
 # if __name__ == '__main__':
 #     app.run(debug=True, port=8081, host='0.0.0.0')

@@ -12,7 +12,7 @@ db_config = {
     'password': os.getenv('DB_PASSWORD'),
     'database': os.getenv('DB_DATABASE'),
     'port': os.getenv('DB_PORT'),
-    'ssl_ca': 'src/mysql.cert'
+    'ssl_ca': 'api/mysql.cert'
 }
 
 
